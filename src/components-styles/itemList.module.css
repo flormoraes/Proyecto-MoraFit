@@ -1,0 +1,7 @@
+.productos-lista {
+    display:flex;
+    flex-wrap: wrap; /* Permite que los productos se ajusten a la pantalla si es necesario */
+    padding: 1em;
+    gap: 30px;
+    justify-content: center;
+}

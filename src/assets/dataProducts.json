@@ -1,0 +1,139 @@
+
+[
+    {
+        "id": 1,
+        "imagen": "/Imagenes-Productos/Calza_Elliot.png",
+        "nombre": "Calza Elliot",
+        "precio": 1290,
+        "nombreBoton": "Calza Elliot",
+        "category": "Calzas" ,
+        "description": "Nuestras calzas deportivas ofrecen un ajuste cómodo y flexible, perfectas para cualquier actividad. Su diseño estilizado y material transpirable te brindan soporte y libertad de movimiento."
+    },
+    {
+        "id": 2,
+        "imagen": "/Imagenes-Productos/Top_Eva.png",
+        "nombre": "Buzo Eva",
+        "precio": 690,
+        "nombreBoton": "Top Eva",
+        "category": "Buzos",
+        "description": "Este buzo es la prenda perfecta para mantenerte abrigado sin sacrificar estilo. Suave al tacto y con un corte relajado, es ideal para usar durante entrenamientos en climas frescos o para disfrutar de un día cómodo. Con detalles en los puños y cuello que aseguran un ajuste perfecto, este buzo se convertirá en un imprescindible en tu guardarropa deportivo."
+    },
+    {
+        "id": 3,
+        "imagen": "/Imagenes-Productos/campera_Sofi.png",
+        "nombre": "Campera Sofi",
+        "precio": 1590,
+        "nombreBoton": "Campera Sofi",
+        "category": "Camperas",
+        "description": "La campera deportiva está diseñada para brindarte comodidad y estilo en cada entrenamiento. Confeccionada en materiales ligeros y transpirables, ofrece una excelente movilidad y protección contra el frío. Ideal para ejercicios al aire libre o para completar tu look casual, su ajuste ergonómico y diseño moderno te acompañarán en cada movimiento."
+    },
+    {
+        "id": 4,
+        "imagen": "/Imagenes-Productos/Conjunto_Eva.png",
+        "nombre": "Conjunto Eva",
+        "precio": 1890,
+        "nombreBoton": "Conjunto Eva",
+        "category": "Conjuntos",
+        "description": "El conjunto deportivo combina estilo y funcionalidad en una prenda completa. Fabricado con materiales ligeros y transpirables, ofrece un ajuste cómodo para acompañarte en cada entrenamiento, asegurando que te sientas segura y con libertad de movimiento."
+    },
+    {
+        "id": 5,
+        "imagen": "/Imagenes-Productos/top_sasha.png",
+        "nombre": "Top Sasha",
+        "precio": 690,
+        "nombreBoton": "Top Sasha",
+        "category": "Tops",
+         "description": "El top deportivo está diseñado para ofrecer soporte y comodidad durante tus entrenamientos más intensos. Fabricado con telas de alta transpirabilidad y ajuste elástico, te brinda libertad de movimiento sin comprometer la seguridad. Su diseño moderno y sus colores vibrantes lo convierten en la opción perfecta para combinar con cualquier prenda deportiva."
+    },
+    {
+        "id": 6,
+        "imagen": "/Imagenes-Productos/enterito.png",
+        "nombre": "Enterito Pink",
+        "precio": 1690,
+        "nombreBoton": "Enterito Pink",
+        "category": "Conjuntos",
+        "description": "El conjunto deportivo combina estilo y funcionalidad en una prenda completa. Fabricado con materiales ligeros y transpirables, ofrece un ajuste cómodo para acompañarte en cada entrenamiento, asegurando que te sientas segura y con libertad de movimiento."
+    },
+    {
+        "id": 7,
+        "imagen": "/Imagenes-Productos/Calza_alexa.png",
+        "nombre": "Calza Alexa",
+        "precio": 1190,
+        "nombreBoton": "Calza Alexa",
+        "category": "Calzas",
+        "description": "Nuestras calzas deportivas ofrecen un ajuste cómodo y flexible, perfectas para cualquier actividad. Su diseño estilizado y material transpirable te brindan soporte y libertad de movimiento."
+    },
+    {
+        "id": 8,
+        "imagen": "/Imagenes-Productos/calza_bruna.png",
+        "nombre": "Calza Bruna",
+        "precio": 1290,
+        "nombreBoton": "Calza Bruna",
+        "category": "Calzas",
+        "description": "Nuestras calzas deportivas ofrecen un ajuste cómodo y flexible, perfectas para cualquier actividad. Su diseño estilizado y material transpirable te brindan soporte y libertad de movimiento."
+    },
+    {
+        "id": 9,
+        "imagen": "/Imagenes-Productos/top_camuflado.JPG",
+        "nombre": "Top Camuflado",
+        "precio": 590,
+        "nombreBoton": "Top Camuflado",
+        "category": "Tops",
+        "description": "El top deportivo está diseñado para ofrecer soporte y comodidad durante tus entrenamientos más intensos. Fabricado con telas de alta transpirabilidad y ajuste elástico, te brinda libertad de movimiento sin comprometer la seguridad. Su diseño moderno y sus colores vibrantes lo convierten en la opción perfecta para combinar con cualquier prenda deportiva."
+    },
+    {
+        "id": 10,
+        "imagen": "/Imagenes-Productos/conjunto_molly.png",
+        "alt": "Conjunto Deportivo",
+        "nombre": "Conjunto Molly",
+        "precio": 1890,
+        "nombreBoton": "Conjunto Molly",
+        "category": "Conjuntos",
+        "description": "El conjunto deportivo combina estilo y funcionalidad en una prenda completa. Fabricado con materiales ligeros y transpirables, ofrece un ajuste cómodo para acompañarte en cada entrenamiento, asegurando que te sientas segura y con libertad de movimiento."
+    },
+    {
+        "id": 11,
+        "imagen": "/Imagenes-Productos/calza_akira.jpg",
+        "nombre": "Calza Akira",
+        "precio": 1290,
+        "nombreBoton": "Calza Akira",
+        "category": "Calzas",
+        "description": "Nuestras calzas deportivas ofrecen un ajuste cómodo y flexible, perfectas para cualquier actividad. Su diseño estilizado y material transpirable te brindan soporte y libertad de movimiento."
+    },
+    {
+        "id": 12,
+        "imagen": "/Imagenes-Productos/top_cresida.png",
+        "nombre": "Top Crésida",
+        "precio": 690,
+        "nombreBoton": "Top Crésida",
+        "category": "Tops",
+        "description": "El top deportivo está diseñado para ofrecer soporte y comodidad durante tus entrenamientos más intensos. Fabricado con telas de alta transpirabilidad y ajuste elástico, te brinda libertad de movimiento sin comprometer la seguridad. Su diseño moderno y sus colores vibrantes lo convierten en la opción perfecta para combinar con cualquier prenda deportiva."
+    },
+    {
+        "id": 13,
+        "imagen": "/Imagenes-Productos/top_luna.png",
+        "alt": "Remera",
+        "nombre": "Remera Luna",
+        "precio": 890,
+        "nombreBoton": "Remera Luna",
+        "category": "Remeras"
+    },
+    {
+        "id": 14,
+        "imagen": "/Imagenes-Productos/buzo_sky.png",
+        "nombre": "Buzo Sky",
+        "precio": 990,
+        "nombreBoton": "Buzo Sky",
+        "category": "Buzos",
+        "description": "Este buzo es la prenda perfecta para mantenerte abrigado sin sacrificar estilo. Suave al tacto y con un corte relajado, es ideal para usar durante entrenamientos en climas frescos o para disfrutar de un día cómodo. Con detalles en los puños y cuello que aseguran un ajuste perfecto, este buzo se convertirá en un imprescindible en tu guardarropa deportivo."
+    },
+    {
+        "id": 15,
+        "imagen": "/Imagenes-Productos/campera_gala.png",
+        "nombre": "Campera Gala",
+        "precio": 1490,
+        "nombreBoton": "Campera Gala",
+        "category": "Camperas",
+        "description": "La campera deportiva está diseñada para brindarte comodidad y estilo en cada entrenamiento. Confeccionada en materiales ligeros y transpirables, ofrece una excelente movilidad y protección contra el frío. Ideal para ejercicios al aire libre o para completar tu look casual, su ajuste ergonómico y diseño moderno te acompañarán en cada movimiento."
+    }
+]
