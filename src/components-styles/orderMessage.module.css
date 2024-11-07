@@ -1,0 +1,10 @@
+.OrderMessage {
+    background-color: #2ea0af; /* Un azul claro para el fondo */
+    color: #d5a6df; /* Un color verde azulado oscuro para el texto */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+  }

@@ -1,0 +1,23 @@
+.UserForm {
+    background-color: #ffffff; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    margin-bottom: 20px;
+  }
+  
+  .UserForm input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc; /* Borde gris claro */
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .UserForm input:focus {
+    border-color: #9b59b6; /* Lila característico */
+    outline: none;
+    box-shadow: 0 0 5px rgba(155, 89, 182, 0.5); /* Resplandor lila */
+  }
+  

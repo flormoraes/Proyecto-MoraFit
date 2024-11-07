@@ -1,0 +1,27 @@
+.btn {
+    background-color: rgb(212, 164, 224);
+    color: rgb(255, 255, 255);
+    padding: 0.5em 1em;
+    border: 2px white solid;
+    border-radius: 5px;; /* Border-radius aplicado */
+    cursor: pointer; /* Cambia el cursor a una mano */
+    margin-top: auto; /* Empuja el botón al final del contenedor */
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: white;
+    color: rgb(212, 164, 224);
+    border: 2px solid rgb(212, 164, 224);
+    border-radius: 5px; /* Border-radius debe cerrarse con punto y coma */
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none !important;
+  list-style: none;
+}

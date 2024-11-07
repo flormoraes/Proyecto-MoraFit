@@ -116,7 +116,8 @@
         "nombre": "Remera Luna",
         "precio": 890,
         "nombreBoton": "Remera Luna",
-        "category": "Remeras"
+        "category": "Remeras",
+        "description": "La Remera Luna ofrece comodidad y frescura con un diseño moderno, ideal para tus entrenamientos o looks casuales. Fabricada con telas suaves y transpirables, es perfecta para cualquier ocasión."
     },
     {
         "id": 14,

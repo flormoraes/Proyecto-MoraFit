@@ -1,29 +1,35 @@
-// Este componente se encarga de obtener los datos del producto que seleccionemos, tiene la lógica 
 
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom'; // Para obtener el parámetro de id de la URL
-import dataProducts from '../assets/dataProducts.json'; // Importa tu JSON de productos
+import { useParams } from 'react-router-dom'; 
+import { doc, getDoc } from 'firebase/firestore'; 
+import { db } from '../firebase/firebaseConfig'; 
 import ItemDetail from './ItemDetail';
 
 const ItemDetailContainer = () => {
-  const { id } = useParams(); // Obtenemos el id de la URL
+  const { id } = useParams(); 
   const [product, setProduct] = useState(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const fetchProduct = async () => {
+    const fetchProductFromFirebase = async () => {
       setLoading(true);
       try {
-        const productFound = dataProducts.find((prod) => prod.id === parseInt(id)); // Busca el producto por ID
-        setProduct(productFound);
+     
+        const docRef = doc(db, 'products', id);
+        const docSnap = await getDoc(docRef);
+
+        if (docSnap.exists()) {
+          setProduct({ id: docSnap.id, ...docSnap.data() }); 
+        } else {
+          setProduct(null); 
+        }
       } catch (error) {
-        console.error("Error al cargar el producto:", error);
       } finally {
         setLoading(false);
       }
     };
-    
-    fetchProduct();
+
+    fetchProductFromFirebase();
   }, [id]);
 
   return (
@@ -38,3 +44,4 @@ const ItemDetailContainer = () => {
 };
 
 export default ItemDetailContainer;
+
